@@ -23,17 +23,17 @@ let API_KEY ='43874aec2522eb45ec0379b9772c1777';
     document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
 
   if (data.weather[0].main="Clear") {
-    weatherIcon.src = "images/clear.png"
+    weatherIcon.src = "clear.png"
   }else if (data.weather[0].main="Clouds") {
-    weatherIcon.src = "images/cloud.png"
+    weatherIcon.src = "cloud.png"
   }else if (data.weather[0].main="Mist") {
-    weatherIcon.src = "images/mist.png"
+    weatherIcon.src = "mist.png"
   } else if (data.weather[0].main="Rain") {
-    weatherIcon.src = "images/rain.png"
+    weatherIcon.src = "rain.png"
   }else if (data.weather[0].main="Drizzle") {
-    weatherIcon.src = "images/drizzle.png"
+    weatherIcon.src = "drizzle.png"
   }else if (data.weather[0].main="Snow") {
-    weatherIcon.src = "images/snow.png"
+    weatherIcon.src = "snow.png"
   }
  
   document.querySelector(".weather").style.display="block";
